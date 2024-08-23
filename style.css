@@ -1,0 +1,191 @@
+body {
+    /* background-color: #212121; */
+    background-image: url(bg.png);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+}
+
+nav {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    display: flex;
+    gap: 75px;
+}
+
+nav img {
+    width: 60px;
+    height: 60px;
+}
+
+.img {
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+}
+
+.img h1 {
+    display: inline-block;
+    position: absolute;
+    font-size: 40px;
+    top: -5px;
+    left: 230px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: #FF8C00;
+}
+
+nav ul li a::after {
+    content: "";
+    display: block;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #ff3564;
+    transition: 0.6s ease-in-out;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+.one {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+}
+
+.line {
+    width: 350px;
+    background-color: white;
+    height: 4px;
+    position: absolute;
+    top: 200px;
+    left: 120px;
+}
+
+.one h1 {
+    position: absolute;
+    left: 490px;
+    top: 170px;
+    color: #e82020;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.two {
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    top: 190px;
+    left: 120px;
+}
+
+.two h1 {
+    font-size: 80px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.two h2 {
+    position: absolute;
+    /* display: flex; */
+    top: 120px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.two span {
+    color: #e82020;
+    font-size: 60px;
+    margin-right: 40px;
+}
+
+.three {
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    top: 400px;
+    left: 120px;
+}
+
+.three p {
+    font-size: 17px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.four{
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    top: 530px;
+    left: 130px;
+}
+
+.four button{
+    background: none;
+    outline: none;
+    border: none;
+    padding: 15px 20px;
+    background-color: #e82020;
+    border-radius: 25px;
+    color: white;
+    transition: 1s;
+}
+
+.four button:hover{
+    background-color: white;
+    color: #ff3564;
+    transition: 1s ease-in-out;
+}
+
+.img11{
+    width: 500px;
+    height: 700px;
+    position: absolute;
+    top: 60px;
+    right: 250px;
+    transform: translateX(-10%);
+    transition: transform 1s ease-in-out;
+    
+}
+
+.img11:hover{
+    transform: translateX(-10%) scale(1.1);
+
+}
+
+.icons{
+    position: absolute;
+    top: 650px;
+    left: 125px;
+    display: flex;
+    gap: 30px;
+}
+
+.icons a{
+    font-size: 30px; 
+    text-decoration: none;
+    color: white;
+}
